@@ -14,23 +14,25 @@
     />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
-  <body class="page-1">
+  <body>
     <!--- шапка-->
-    <header class="page-header">
+    <header class="header">
       <div class="container flexbox">
         <nav class="site-nav">
           <a href="./index.html" class="logo">
-            <span class="logo-main">Web</span
-            ><span class="logo-part">Studio</span>
+            <span class="logo__main">Web</span
+            ><span class="logo__part">Studio</span>
           </a>
-          <ul class="list nav-list">
-            <li class="nav-item">
-              <a href="./" class="current">Студия</a>
+          <ul class="menu list">
+            <li class="menu__item">
+              <a href="./" class="menu__link_current link">Студия</a>
             </li>
-            <li class="nav-item">
-              <a href="./portfolio.html" class="link">Портфолио</a>
+            <li class="menu__item">
+              <a href="./portfolio.html" class="menu__link link">Портфолио</a>
             </li>
-            <li class="nav-item"><a href="" class="link">Контакты</a></li>
+            <li class="menu__item">
+              <a href="" class="menu__link link">Контакты</a>
+            </li>
           </ul>
         </nav>
         <!--  почта и телефон в шапке-->
@@ -72,28 +74,28 @@
           <ul class="feature list flexbox">
             <li class="feature__item icon-antenna">
               <h3 class="subtitle">Внимание к деталям</h3>
-              <p class="text">
+              <p class="feature__text">
                 Идейные соображения, а также начало повседневной работы по
                 формированию позиции.
               </p>
             </li>
             <li class="feature__item icon-clock">
               <h3 class="subtitle">Пунктуальность</h3>
-              <p class="text">
+              <p class="feature__text">
                 Задача организации, в особенности же рамки и место обучения
                 кадров влечет за собой.
               </p>
             </li>
             <li class="feature__item icon-diagram">
               <h3 class="subtitle">Планирование</h3>
-              <p class="text">
+              <p class="feature__text">
                 Равным образом консультация с широким активом в значительной
                 степени обуславливает.
               </p>
             </li>
             <li class="feature__item icon-astronavt">
               <h3 class="subtitle">Современные технологии</h3>
-              <p class="text">
+              <p class="feature__text">
                 Значимость этих проблем настолько очевидна, что реализация
                 плановых заданий.
               </p>
@@ -104,7 +106,7 @@
       <!---Чем занимаются-->
       <section class="section work list">
         <div class="container">
-          <h2 class="work-title">Чем мы занимаемся</h2>
+          <h2 class="title">Чем мы занимаемся</h2>
           <ul class="work-list list">
             <!-- div for position -->
             <li class="work-items">
@@ -114,7 +116,7 @@
                   alt="компьютер на столе"
                   width="370"
                 />
-                <p class="work-subtitle">Десктопные приложения</p>
+                <p class="work__subtitle">Десктопные приложения</p>
               </div>
             </li>
 
@@ -125,22 +127,22 @@
                   alt="мобильный телефон в руке"
                   width="370"
                 />
-                <p class="work-subtitle">Мобильные приложения</p>
+                <p class="work__subtitle">Мобильные приложения</p>
               </div>
             </li>
             <li class="work-items">
               <div class="work-thumb">
                 <img src="./img2/boх-3.jpg" alt="планшет" width="370" />
-                <p class="work-subtitle">Дизайнерские решения</p>
+                <p class="work__subtitle">Дизайнерские решения</p>
               </div>
             </li>
           </ul>
         </div>
       </section>
       <!--- team-->
-      <section class="section team">
+      <section class="section">
         <div class="container">
-          <h2 class="team-title">Наша команда</h2>
+          <h2 class="title">Наша команда</h2>
           <ul class="team-list list">
             <li class="team-items">
               <img
@@ -150,7 +152,7 @@
               />
               <div class="employee">
                 <h3 class="team-subtitle">Игорь Демьяненко</h3>
-                <p class="team-text">Product Designer</p>
+                <p class="team__text text">Product Designer</p>
                 <ul class="social-icon-list list">
                   <li class="social-icon-item">
                     <a
@@ -211,7 +213,7 @@
               />
               <div class="employee">
                 <h3 class="team-subtitle">Ольга Репина</h3>
-                <p class="team-text">Frontend Developer</p>
+                <p class="team__text text">Frontend Developer</p>
                 <ul class="social-icon-list list">
                   <li class="social-icon-item">
                     <a
@@ -272,7 +274,7 @@
               />
               <div class="employee">
                 <h3 class="team-subtitle">Николай Тарасов</h3>
-                <p class="team-text">Marketing</p>
+                <p class="team__text text">Marketing</p>
                 <ul class="social-icon-list list">
                   <li class="social-icon-item">
                     <a
@@ -333,7 +335,7 @@
               />
               <div class="employee">
                 <h3 class="team-subtitle">Михаил Ермаков</h3>
-                <p class="team-text">UI Designer</p>
+                <p class="team__text text">UI Designer</p>
                 <ul class="social-icon-list list">
                   <li class="social-icon-item">
                     <a
@@ -392,7 +394,7 @@
       <!-- Klients -->
       <section class="section">
         <div class="container">
-          <h2 class="client-title">Постоянные клиенты</h2>
+          <h2 class="title">Постоянные клиенты</h2>
           <ul class="client-list list">
             <li class="client-items">
               <a class="clients-link" href="">
@@ -447,7 +449,7 @@
       <div class="container footer-flexbox">
         <div class="footer-adress">
           <a href="WebStudio" class="logo"
-            ><span class="logo-main">Web</span>Studio</a
+            ><span class="logo__main">Web</span>Studio</a
           >
           <address>
             <span class="company-adress">г. Киев, пр-т Леси Украинки, 26</span>
