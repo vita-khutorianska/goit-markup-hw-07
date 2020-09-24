@@ -33,17 +33,7 @@
 
   transition: fill $main-transition;
 }
-.button-close:focus,
-.button-close:hover {
+.modal__btn-close:focus,
+.modal__btn-close:hover {
   fill: $acent;
-}
-.modal-title {
-  display: block;
-  margin-bottom: 12px;
-
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 1.15;
-  text-align: center;
-  color: $primery-text-color;
 }
