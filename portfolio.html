@@ -16,36 +16,38 @@
   </head>
   <body>
     <!--- шапка-->
-    <header class="page-header">
+    <header class="header">
       <div class="container flexbox">
-        <nav class="site-nav">
+        <nav class="header__nav">
           <a href="./index.html" class="logo">
             <span class="logo__main">Web</span
             ><span class="logo__part">Studio</span>
           </a>
-          <ul class="list nav-list">
+          <ul class="menu list">
             <li class="menu__item">
-              <a href="./" class="link">Студия</a>
+              <a href="./" class="menu__link_current link">Студия</a>
             </li>
             <li class="menu__item">
-              <a href="./portfolio.html" class="current">Портфолио</a>
+              <a href="./portfolio.html" class="menu__link link">Портфолио</a>
             </li>
-            <li class="menu__item"><a href="" class="link">Контакты</a></li>
+            <li class="menu__item">
+              <a href="" class="menu__link link">Контакты</a>
+            </li>
           </ul>
         </nav>
         <!--  почта и телефон в шапке-->
-        <ul class="nav-auth list">
-          <li class="auth-item">
+        <ul class="contacts list">
+          <li class="contacts__item">
             <a href="mailto:info@devstudio.com" class="link">
-              <svg class="mail-icon" width="16px" height="12px">
+              <svg class="contacts__icon" width="16px" height="12px">
                 <use href="./img2/sprite.svg#icon-envelope"></use>
               </svg>
               info@devstudio.com</a
             >
           </li>
-          <li class="auth-item">
+          <li class="contacts__item">
             <a href="tel:++38-096-111-11-11" class="link">
-              <svg class="tell-icon" width="10px" height="16px">
+              <svg class="contacts__icon" width="10px" height="16px">
                 <use href="./img2/sprite.svg#icon-smartphone"></use>
               </svg>
               +38 096 111 11 11</a
@@ -231,67 +233,67 @@
     <!--- футер-->
     <footer class="footer flexbox">
       <div class="container footer-flexbox">
-        <div class="footer-adress">
-          <a href="WebStudio" class="logo"
+        <div class="adress">
+          <a href="WebStudio" class="footer__logo logo"
             ><span class="logo__main">Web</span>Studio</a
           >
-          <address class="adress">
-            <span class="company-adress">г. Киев, пр-т Леси Украинки, 26</span>
-            <a href="mailto:info@devstudio.com" class="adress-link"
+          <address>
+            <span class="adress__name">г. Киев, пр-т Леси Украинки, 26</span>
+            <a href="mailto:info@devstudio.com" class="adress__link"
               >info@devstudio.com</a
             >
-            <a href="tel:++38-096-111-11-11" class="adress-link"
+            <a href="tel:++38-096-111-11-11" class="adress__link"
               >+38-096-111-11-11
             </a>
           </address>
         </div>
         <div class="footer-social">
-          <b class="social-title">присоединяйтесь</b>
-          <ul class="social-list list">
+          <b class="footer__subtitle subtitle">присоединяйтесь</b>
+          <ul class="social list">
             <li class="social__item">
               <a
-                class="social-footer-link"
+                class="social__link_white"
                 href="https://www.instagram.com/"
                 target="_blank"
                 aria-label="ссылка Инстаграм"
               >
-                <svg class="social__icon-footer">
+                <svg class="social__icon_white">
                   <use href="./img2/sprite.svg#icon-instagram"></use>
                 </svg>
               </a>
             </li>
             <li class="social__item">
               <a
-                class="social-footer-link"
+                class="social__link_white"
                 href="https://twitter.com/"
                 target="_blank"
                 aria-label="ссылка Твиттер"
               >
-                <svg class="social__icon-footer">
+                <svg class="social__icon_white">
                   <use href="./img2/sprite.svg#icon-twitter"></use>
                 </svg>
               </a>
             </li>
             <li class="social__item">
               <a
-                class="social-footer-link"
+                class="social__link_white"
                 href="https://facebook.com/"
                 target="_blank"
                 aria-label="ссылка Фейсбук"
               >
-                <svg class="social__icon-footer">
+                <svg class="social__icon_white">
                   <use href="./img2/sprite.svg#icon-facebook"></use>
                 </svg>
               </a>
             </li>
             <li class="social__item">
               <a
-                class="social-footer-link"
+                class="social__link_white"
                 href="https://www.linkedin.com/"
                 target="_blank"
                 aria-label="ссылка Линкедин"
               >
-                <svg class="social__icon-footer">
+                <svg class="social__icon_white">
                   <use href="./img2/sprite.svg#icon-linkedin"></use>
                 </svg>
               </a>
@@ -300,20 +302,20 @@
         </div>
         <!-- подпишитесь на рассылку -->
         <div class="subscribe">
-          <b class="social-title">Подпишитесь на рассылку</b>
+          <b class="footer__subtitle subtitle">Подпишитесь на рассылку</b>
 
-          <form class="subscribe-form">
+          <form class="subscribe__form">
             <input
-              class="mail-subscribe"
+              class="subscribe__mail"
               type="email"
               name="mail"
               id="mail"
               placeholder="E-mail"
             />
 
-            <button type="submit" class="btn-subscribe">
+            <button type="submit" class="subscribe__btn btn">
               Подписаться
-              <svg class="icon-send" width="24px" height="24px">
+              <svg class="subscribe__icon" width="24px" height="24px">
                 <use href="./img2/sprite.svg#icon-send"></use>
               </svg>
             </button>
