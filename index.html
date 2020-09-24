@@ -540,63 +540,66 @@
     </footer>
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
-        <button data-modal-close class="button-close">
+        <button data-modal-close class="modal__btn-close">
           <svg width="18px" height="18px">
             <use href="./img2/sprite.svg#icon-close-button"></use>
           </svg>
         </button>
+
+        <!-- forms -->
+
         <form class="form" autocomplete="off">
           <b class="modal-title">Оставьте свои данные, мы вам перезвоним</b>
-          <div class="form-field">
-            <label class="form-label" for="name">Имя</label>
+          <div class="form__field">
+            <label class="form__label" for="name">Имя</label>
             <input
-              class="form-input"
+              class="form__input"
               type="text"
               name="name"
               id="name"
               placeholder=" "
             />
-            <svg class="form-icon" width="18px" height="18px">
+            <svg class="form__icon" width="18px" height="18px">
               <use href="./img2/sprite.svg#icon-person"></use>
             </svg>
           </div>
 
           <!-- телефон -->
 
-          <div class="form-field">
-            <label class="form-label" for="tel">Почта</label>
+          <div class="form__field">
+            <label class="form__label" for="tel">Почта</label>
             <input
-              class="form-input"
+              class="form__input"
               type="tel"
               name="tel"
               id="tel"
               placeholder=" "
             />
-            <svg class="form-icon" width="18px" height="18px">
+            <svg class="form__icon" width="18px" height="18px">
               <use href="./img2/sprite.svg#icon-phone"></use>
             </svg>
           </div>
 
           <!-- почта -->
 
-          <div class="form-field">
-            <label class="form-label" for="email">Почта</label>
+          <div class="form__field">
+            <label class="form__label" for="email">Почта</label>
             <input
-              class="form-input"
+              class="form__input"
               type="email"
               name="email"
               id="email"
               placeholder=" "
             />
-            <svg class="form-icon" width="18px" height="18px">
+            <svg class="form__icon" width="18px" height="18px">
               <use href="./img2/sprite.svg#icon-email"></use>
             </svg>
           </div>
 
           <!-- comments -->
 
-          <div class="form-field">
-            <label class="form-label" for="comments">Комментарий</label>
+          <div class="form__field">
+            <label class="form__label" for="comments">Комментарий</label>
             <textarea
               class="textarea"
               name="comments"

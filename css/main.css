@@ -558,14 +558,6 @@ img {
   text-align: center;
 }
 
-/* 
-подпишитесь*/
-/*наши работы*/
-a {
-  text-decoration: none;
-}
-
-/* backdrop*/
 .backdrop {
   position: fixed;
   top: 0;
@@ -574,7 +566,7 @@ a {
   height: 100%;
   background: rgba(0, 0, 0, 0.2);
   opacity: 1;
-  transition: opacity var(--main-transition);
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .backdrop.is-hidden {
@@ -586,7 +578,6 @@ a {
   transform: translateX(-50%, -50%) scale(0);
 }
 
-/* modal */
 .modal {
   position: absolute;
   top: 50%;
@@ -596,12 +587,12 @@ a {
   max-width: 528px;
   min-height: 581px;
   padding: 40px;
-  background: var(--white);
+  background: #ffffff;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
 }
 
-.button-close {
+.modal__btn-close {
   position: absolute;
   top: 8px;
   right: 8px;
@@ -610,18 +601,18 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: var(--white);
+  background: #ffffff;
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
-  color: var(--logo-color);
+  color: #000000;
   outline: nonefix;
   text-align: center;
-  transition: fill var(--main-transition);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .button-close:focus,
 .button-close:hover {
-  fill: var(--acent);
+  fill: #2196f3;
 }
 
 .modal-title {
@@ -631,16 +622,17 @@ a {
   font-size: 20px;
   line-height: 1.15;
   text-align: center;
-  color: var(--primery-text-colour);
+  color: #212121;
 }
 
-.form-field {
+/* modal */
+.form__field {
   position: relative;
   display: flex;
   flex-direction: column;
 }
 
-.form-label {
+.form__label {
   margin-bottom: 4px;
   font-size: 12px;
   line-height: 1.16;
@@ -648,7 +640,7 @@ a {
   color: var(--text-color);
 }
 
-.form-input {
+.form__input {
   margin-bottom: 10px;
   padding-left: 42px;
   border: 1px solid rgba(33, 33, 33, 0.2);
@@ -658,7 +650,7 @@ a {
   outline: none;
 }
 
-.form-icon {
+.form__icon {
   position: absolute;
   width: 18px;
   height: 18px;
@@ -688,8 +680,8 @@ a {
   color: rgba(117, 117, 117, 0.5);
 }
 
-.form-input:focus ~ .form-icon,
-.form-input:focus,
+.form__input:focus ~ .form__icon,
+.form__input:focus,
 .textarea:focus {
   border-color: var(--acent);
   fill: var(--acent);
