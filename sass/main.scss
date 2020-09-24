@@ -1,116 +1,21 @@
-@import "./base/common";
 @import "./utils/variables";
+@import "./base/common";
 @import "./components/header";
+@import "./components/logo";
+@import "./components/menu";
+@import "./components/contacts";
+@import "./components/hero";
+@import "./layouts/feature";
 
 
-/* contacts*/
-.contacts {
-  display: flex;
-  align-items: center;
-}
-.contacts .link {
-  display: flex;
-  align-items: center;
 
-  color: var(--text-color);
-  text-decoration: none;
-}
-.contacts__icon {
-  margin-right: 10px;
-  fill: currentColor;
-}
-.link:hover,
-.link:focus {
-  color: var(--acent);
-}
 
-.contacts__item:not(:last-child) {
-  margin-right: 30px;
-}
 
-/* Герой*/
 
-.hero {
-  display: flex;
-  max-width: 1600px;
-  height: 600px;
-  margin: 0px auto;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  background-repeat: no-repeat;
-  background-position: center;
 
-  background-color: var(--bcg-hero);
-  background-image: linear-gradient(
-      to right,
-      rgba(47, 48, 58, 0.4),
-      rgba(47, 48, 58, 0.4)
-    ),
-    url(../img2/img-hero.jpg);
-}
-.hero__title {
-  margin-top: 0;
-  margin-bottom: 30px;
-  text-align: center;
 
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 1.36;
-  letter-spacing: 0.06em;
 
-  text-transform: uppercase;
-  color: var(--white);
-}
-.hero .btn {
-  padding: 10px 32px;
-}
 
-/*Преимущества*/
-
-.feature__item {
-  width: calc((100% - 30px * 3) / 4);
-  margin-right: 30px;
-}
-.feature__item:nth-child(4) {
-  margin-right: 0;
-}
-.feature__item::before {
-  display: block;
-  content: "";
-  height: 120px;
-  margin-bottom: 30px;
-  border-radius: 4px;
-
-  background: var(--section-team-bg-color);
-  background-position: center;
-  background-repeat: no-repeat;
-}
-.icon-antenna::before {
-  background-image: url(../img2/icons/antenna.svg);
-}
-.icon-clock::before {
-  background-image: url(../img2/icons/clock.svg);
-}
-.icon-diagram::before {
-  background-image: url(../img2/icons/diagram.svg);
-}
-.icon-astronavt::before {
-  background-image: url(../img2/icons/astronaut.svg);
-}
-
-.feature__subtitle.subtitle {
-  margin-top: 0;
-  margin-bottom: 10px;
-}
-
-.feature__text {
-  font-size: 14px;
-  line-height: 1.71;
-  margin: 0;
-  color: var(--text-color);
-}
 
 /*чем занимаються*/
 

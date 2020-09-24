@@ -8,8 +8,8 @@ html {
 }
 
 body {
-  color: $primery-text-colour;
-  background-color:$white;
+  color: $primery-text-color;
+  background-color: $white;
   text-decoration: none;
   font-weight: 400;
   font-style: normal;
@@ -57,7 +57,7 @@ img {
   text-decoration: none;
   list-style: none;
 
-  transition: color var $main-transition;
+  transition: color  $main-transition;
 }
 .btn {
   font-weight: 700;
@@ -66,7 +66,7 @@ img {
   letter-spacing: 0.06em;
 
   color:$white;
-  background-color:$acent;
+  background-color: $acent;
   border: none;
   outline: none;
   text-decoration: none;
@@ -92,5 +92,5 @@ img {
 .text {
   font-size: 16px;
   line-height: 1.87;
-  color:$text-color;
+  color: $text-color;
 }

@@ -1,0 +1,24 @@
+/* contacts*/
+.contacts {
+  display: flex;
+  align-items: center;
+}
+.contacts .link {
+  display: flex;
+  align-items: center;
+
+  color: $text-color;
+  text-decoration: none;
+}
+.contacts__icon {
+  margin-right: 10px;
+  fill: currentColor;
+}
+.link:hover,
+.link:focus {
+  color: $acent;
+}
+
+.contacts__item:not(:last-child) {
+  margin-right: 30px;
+}
