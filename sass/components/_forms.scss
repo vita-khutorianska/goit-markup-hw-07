@@ -1,0 +1,74 @@
+.form__title {
+  display: block;
+  margin-bottom: 12px;
+
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.15;
+  text-align: center;
+  color: $primery-text-color;
+}
+.form__field {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+.form__label {
+  margin-bottom: 4px;
+  font-size: 12px;
+  line-height: 1.16;
+  letter-spacing: 0.01em;
+  color: $text-color;
+}
+
+.form__input {
+  margin-bottom: 10px;
+  padding-left: 42px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+  height: 40px;
+
+  transition: border-color $main-transition;
+  outline: none;
+}
+
+.form__icon {
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  top: 50%;
+  left: 12px;
+
+  transform: translateY(-25%);
+  transition: fill $main-transition;
+
+  fill: $primery-text-color;
+}
+
+.form__textarea {
+  width: 448px;
+  height: 120px;
+  padding: 12px 16px;
+  resize: none;
+  margin-bottom: 20px;
+
+  border: 1px solid rgba(33, 33, 33, 0.2);
+
+  border-radius: 4px;
+  transition: border-color $main-transition;
+  outline: none;
+}
+.Form__textarea::placeholder {
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.01em;
+
+  color: rgba(117, 117, 117, 0.5);
+}
+
+.form__input:focus ~ .form__icon,
+.form__input:focus,
+.form__textarea:focus {
+  border-color: $acent;
+  fill: $acent;
+}

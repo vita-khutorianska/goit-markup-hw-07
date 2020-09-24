@@ -615,7 +615,6 @@ img {
   fill: #2196f3;
 }
 
-/* modal */
 .form__title {
   display: block;
   margin-bottom: 12px;
@@ -637,7 +636,7 @@ img {
   font-size: 12px;
   line-height: 1.16;
   letter-spacing: 0.01em;
-  color: var(--text-color);
+  color: #757575;
 }
 
 .form__input {
@@ -646,7 +645,7 @@ img {
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
   height: 40px;
-  transition: border-color var(--main-transition);
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   outline: none;
 }
 
@@ -657,11 +656,11 @@ img {
   top: 50%;
   left: 12px;
   transform: translateY(-25%);
-  transition: fill var(--main-transition);
-  fill: var(--primery-text-colour);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  fill: #212121;
 }
 
-.textarea {
+.form__textarea {
   width: 448px;
   height: 120px;
   padding: 12px 16px;
@@ -669,11 +668,11 @@ img {
   margin-bottom: 20px;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
-  transition: border-color var(--main-transition);
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   outline: none;
 }
 
-.textarea::placeholder {
+.Form__textarea::placeholder {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.01em;
@@ -682,11 +681,12 @@ img {
 
 .form__input:focus ~ .form__icon,
 .form__input:focus,
-.textarea:focus {
-  border-color: var(--acent);
-  fill: var(--acent);
+.form__textarea:focus {
+  border-color: #2196f3;
+  fill: #2196f3;
 }
 
+/* modal */
 /* checkbox */
 .checkbox {
   position: absolute;
