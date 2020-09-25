@@ -18,8 +18,8 @@
   text-decoration: none;
 
   transition: color $main-transition;
-}
-.adress__link:hover,
-.adress__link:focus {
-  color: $acent;
+
+&:hover,
+&:focus {
+  color: $acent;}
 }

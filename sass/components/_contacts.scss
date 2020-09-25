@@ -3,7 +3,8 @@
   display: flex;
   align-items: center;
 }
-.contacts .link {
+.contacts  {
+  @extend %link;
   display: flex;
   align-items: center;
 
@@ -14,10 +15,7 @@
   margin-right: 10px;
   fill: currentColor;
 }
-.link:hover,
-.link:focus {
-  color: $acent;
-}
+
 
 .contacts__item:not(:last-child) {
   margin-right: 30px;

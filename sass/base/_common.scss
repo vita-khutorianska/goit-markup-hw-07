@@ -54,7 +54,7 @@ img {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-.link {
+%link {
 
   font-weight: 500;
   line-height: $link-subtitle-lh;
@@ -63,6 +63,10 @@ img {
   list-style: none;
 
   transition: color $main-transition;
+   &:hover,
+   &:focus {
+  color: $acent;
+}
 }
 .btn {
   font-weight: $subtitle-btn-fw;
