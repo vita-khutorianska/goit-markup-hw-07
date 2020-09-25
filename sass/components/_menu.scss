@@ -25,8 +25,8 @@
   color:$acent;
   
 
-  transition: color $main-transition;
-}
+  transition: color $main-transition;}
+
 .menu__link_current::after {
   position: absolute;
   content: "";
@@ -38,5 +38,4 @@
   border-radius: 2px;
   background: $acent;
 
-  transition: color $main-transition;
-}
+  transition: color $main-transition;}
