@@ -16,12 +16,12 @@
   border: 1px solid rgba(255, 255, 255, 0.3);
   box-sizing: border-box;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
-  border-radius: 4px;
+
   background-color: $footer-bg-color;
   color: $white;
 }
 .subscribe__mail::placeholder {
-  font-size: 16px;
+  font-size: $btn-text-fs;
   line-height: 1.25;
   color: rgba(255, 255, 255, 0.6);
 }
@@ -38,7 +38,7 @@
   /* outline-color: transparent; */
 }
 .subscribe__icon {
-  fill:$white;
+  fill: $white;
   margin-left: 10px;
   text-align: center;
 }

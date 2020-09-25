@@ -14,6 +14,8 @@ body {
   background-color: #ffffff;
   text-decoration: none;
   font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
   font-style: normal;
   font-family: Roboto, sans-serif;
   letter-spacing: 0.03em;
@@ -60,7 +62,6 @@ img {
 
 .link {
   font-weight: 500;
-  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
@@ -69,7 +70,7 @@ img {
 }
 
 .btn {
-  font-weight: 700;
+  font-weight: 700px;
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.06em;
@@ -79,21 +80,19 @@ img {
   outline: none;
   text-decoration: none;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
 }
 
 .title {
   margin-top: 0;
   margin-bottom: 50px;
-  font-weight: 700;
+  font-weight: 700px;
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
 }
 
 .subtitle {
-  font-weight: 700;
-  font-size: 14px;
+  font-weight: 700px;
   line-height: 1.14;
   text-transform: uppercase;
 }
@@ -117,7 +116,7 @@ img {
 .logo {
   margin-right: 93px;
   font-family: raleway, sans-serif;
-  font-weight: 700;
+  font-weight: 700px;
   font-size: 26px;
   line-height: 1.2;
   text-decoration: none;
@@ -215,7 +214,6 @@ img {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
-  border-radius: 4px;
   color: #212121;
   background-color: #f5f4fa;
   text-decoration: none;
@@ -227,7 +225,6 @@ img {
   color: #ffffff;
   background-color: #2196f3;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-  border-radius: 4px;
   outline: none;
 }
 
@@ -237,7 +234,7 @@ a {
 
 .portfolio__title {
   margin-bottom: 4px;
-  font-weight: 700;
+  font-weight: 700px;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
@@ -369,8 +366,6 @@ a {
 .adress__name {
   color: #ffffff;
   font-style: normal;
-  font-size: 14px;
-  line-height: 1.71;
 }
 
 .adress__link {
@@ -378,8 +373,6 @@ a {
   margin-top: 9px;
   margin-bottom: 0;
   font-style: normal;
-  font-size: 14px;
-  line-height: 1.71;
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -434,7 +427,6 @@ a {
   border: 1px solid rgba(255, 255, 255, 0.3);
   box-sizing: border-box;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
-  border-radius: 4px;
   background-color: #2f303a;
   color: #ffffff;
 }

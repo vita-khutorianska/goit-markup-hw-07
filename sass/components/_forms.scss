@@ -2,7 +2,7 @@
   display: block;
   margin-bottom: 12px;
 
-  font-weight: 700;
+  font-weight: $subtitle-btn-fw;
   font-size: 20px;
   line-height: 1.15;
   text-align: center;
@@ -25,7 +25,7 @@
   margin-bottom: 10px;
   padding-left: 42px;
   border: 1px solid rgba(33, 33, 33, 0.2);
-  border-radius: 4px;
+
   height: 40px;
 
   transition: border-color $main-transition;
@@ -54,13 +54,11 @@
 
   border: 1px solid rgba(33, 33, 33, 0.2);
 
-  border-radius: 4px;
   transition: border-color $main-transition;
   outline: none;
 }
 .Form__textarea::placeholder {
-  font-size: 14px;
-  line-height: 1.14;
+  line-height: 1.16;
   letter-spacing: 0.01em;
 
   color: rgba(117, 117, 117, 0.5);
