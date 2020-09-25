@@ -20,6 +20,9 @@ body {
   letter-spacing: 0.03em;
   
 }
+a {
+  text-decoration: none;
+}
 
 .list {
   list-style: none;
@@ -54,19 +57,16 @@ img {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-%link {
+link {
 
   font-weight: 500;
   line-height: $link-subtitle-lh;
   letter-spacing: 0.02em;
-  text-decoration: none;
+ 
   list-style: none;
 
   transition: color $main-transition;
-   &:hover,
-   &:focus {
-  color: $acent;
-}
+
 }
 .btn {
   font-weight: $subtitle-btn-fw;

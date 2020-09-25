@@ -9,6 +9,7 @@
   display: block;
   padding: 32px 0;
   color: $primery-text-color;
+  text-decoration: none;
 }
 .menu .link:hover,
 .link:focus {
@@ -19,8 +20,10 @@
   position: relative;
   display: block;
   padding: 32px 0;
+  
 
   color:$acent;
+  
 
   transition: color $main-transition;
 }
