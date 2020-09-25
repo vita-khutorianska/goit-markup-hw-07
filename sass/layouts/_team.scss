@@ -1,4 +1,7 @@
 .team {
+  display: flex;
+  flex-wrap: wrap;
+
   background-color: $section-team-bg-color;
   padding-top: 86px;
   padding-bottom: 102px;
@@ -19,10 +22,6 @@
 
   text-align: center;
 }
-.team {
-  display: flex;
-  flex-wrap: wrap;
-}
 .team__item {
   width: calc((100% - 30px * 3) / 4);
   margin-right: 30px;
@@ -30,9 +29,9 @@
   background-color: $white;
   box-shadow: $modal-team-box-shadow;
   border-radius: 0px 0px 4px 4px;
-}
-.team__item:nth-child(4n) {
-  margin-right: 0;
+
+ &:nth-child(4n){margin-right: 0;}
+  
 }
 .team__content {
   padding-top: 30px;

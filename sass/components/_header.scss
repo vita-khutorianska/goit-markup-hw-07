@@ -1,8 +1,8 @@
 .header {
   border: 1px solid #ececec;
-}
-.header__nav {
+
+&__nav {
   display: flex;
   align-items: center;
-  margin-right: auto;
+  margin-right: auto;}
 }

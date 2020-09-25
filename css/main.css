@@ -316,6 +316,8 @@ img {
 }
 
 .team {
+  display: flex;
+  flex-wrap: wrap;
   background-color: #f5f4fa;
   padding-top: 86px;
   padding-bottom: 102px;
@@ -334,11 +336,6 @@ img {
   margin-top: 0;
   margin-bottom: 16px;
   text-align: center;
-}
-
-.team {
-  display: flex;
-  flex-wrap: wrap;
 }
 
 .team__item {
