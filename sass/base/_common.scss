@@ -12,7 +12,7 @@ body {
   background-color: $white;
   text-decoration: none;
   font-weight: 400;
-  font-size: 14px;
+  
   line-height: 1.71;
   font-style: normal;
   font-family: Roboto, sans-serif;
@@ -54,6 +54,7 @@ img {
   overflow: hidden;
 }
 .link {
+  font-size: $main-fs;
   font-weight: 500;
   line-height: $link-subtitle-lh;
   letter-spacing: 0.02em;
@@ -75,6 +76,8 @@ img {
   text-decoration: none;
 
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+
+  border-radius: 4px;
   
 }
 .title {
@@ -87,11 +90,13 @@ img {
   text-align: center;
 }
 .subtitle {
+  font-size: $main-fs;
   font-weight: $subtitle-btn-fw;
   line-height: $link-subtitle-lh;
   text-transform: uppercase;
 }
 .text {
+  font-size: $main-fs;
   font-size: $btn-text-fs;
   line-height: 1.87;
   color: $text-color;

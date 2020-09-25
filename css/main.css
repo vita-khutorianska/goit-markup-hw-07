@@ -14,7 +14,6 @@ body {
   background-color: #ffffff;
   text-decoration: none;
   font-weight: 400;
-  font-size: 14px;
   line-height: 1.71;
   font-style: normal;
   font-family: Roboto, sans-serif;
@@ -61,6 +60,7 @@ img {
 }
 
 .link {
+  font-size: 14px;
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
@@ -70,7 +70,7 @@ img {
 }
 
 .btn {
-  font-weight: 700px;
+  font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.06em;
@@ -80,24 +80,27 @@ img {
   outline: none;
   text-decoration: none;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
 }
 
 .title {
   margin-top: 0;
   margin-bottom: 50px;
-  font-weight: 700px;
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
 }
 
 .subtitle {
-  font-weight: 700px;
+  font-size: 14px;
+  font-weight: 700;
   line-height: 1.14;
   text-transform: uppercase;
 }
 
 .text {
+  font-size: 14px;
   font-size: 16px;
   line-height: 1.87;
   color: #757575;
@@ -116,7 +119,7 @@ img {
 .logo {
   margin-right: 93px;
   font-family: raleway, sans-serif;
-  font-weight: 700px;
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
   text-decoration: none;
@@ -272,6 +275,7 @@ img {
 .feature__text {
   margin: 0;
   color: #757575;
+  font-size: 14px;
 }
 
 /*чем занимаються*/
@@ -403,6 +407,7 @@ img {
   width: 170px;
   height: 90px;
   border: 1px solid #afb1b8;
+  border-radius: 4px;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -459,6 +464,7 @@ img {
 }
 
 .adress__name {
+  font-size: 14px;
   color: #ffffff;
   font-style: normal;
 }
@@ -467,6 +473,7 @@ img {
   display: block;
   margin-top: 9px;
   margin-bottom: 0;
+  font-size: 14px;
   font-style: normal;
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
@@ -522,6 +529,7 @@ img {
   border: 1px solid rgba(255, 255, 255, 0.3);
   box-sizing: border-box;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
   background-color: #2f303a;
   color: #ffffff;
 }
@@ -539,6 +547,7 @@ img {
   padding-right: 28px;
   width: 200px;
   height: 50px;
+  border-radius: 4px;
   /* outline-color: transparent; */
 }
 
@@ -607,7 +616,7 @@ img {
 .form__title {
   display: block;
   margin-bottom: 12px;
-  font-weight: 700px;
+  font-weight: 700;
   font-size: 20px;
   line-height: 1.15;
   text-align: center;
@@ -633,6 +642,7 @@ img {
   padding-left: 42px;
   border: 1px solid rgba(33, 33, 33, 0.2);
   height: 40px;
+  border-radius: 4px;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   outline: none;
 }
@@ -654,6 +664,7 @@ img {
   padding: 12px 16px;
   resize: none;
   margin-bottom: 20px;
+  border-radius: 4px;
   border: 1px solid rgba(33, 33, 33, 0.2);
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   outline: none;
