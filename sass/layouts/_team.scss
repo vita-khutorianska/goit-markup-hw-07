@@ -27,7 +27,7 @@
   width: calc((100% - 30px * 3) / 4);
   margin-right: 30px;
 
-  background-color: var(--white);
+  background-color: $white;
   box-shadow: $modal-team-box-shadow;
   border-radius: 0px 0px 4px 4px;
 }

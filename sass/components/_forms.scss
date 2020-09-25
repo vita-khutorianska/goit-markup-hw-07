@@ -59,7 +59,8 @@
   transition: border-color $main-transition;
   outline: none;
 }
-.Form__textarea::placeholder {
+.form__textarea::placeholder {
+  font-size: $main-fs;
   line-height: 1.16;
   letter-spacing: 0.01em;
 

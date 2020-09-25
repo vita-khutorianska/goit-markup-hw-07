@@ -14,6 +14,7 @@ body {
   background-color: #ffffff;
   text-decoration: none;
   font-weight: 400;
+  font-size: 14px;
   line-height: 1.71;
   font-style: normal;
   font-family: Roboto, sans-serif;
@@ -60,7 +61,6 @@ img {
 }
 
 .link {
-  font-size: 14px;
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
@@ -368,7 +368,6 @@ a {
 }
 
 .adress__name {
-  font-size: 14px;
   color: #ffffff;
   font-style: normal;
 }
@@ -377,7 +376,6 @@ a {
   display: block;
   margin-top: 9px;
   margin-bottom: 0;
-  font-size: 14px;
   font-style: normal;
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;

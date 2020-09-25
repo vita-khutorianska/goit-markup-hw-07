@@ -12,7 +12,8 @@ body {
   background-color: $white;
   text-decoration: none;
   font-weight: 400;
-  
+
+  font-size: $main-fs;
   line-height: 1.71;
   font-style: normal;
   font-family: Roboto, sans-serif;
@@ -54,7 +55,7 @@ img {
   overflow: hidden;
 }
 .link {
-  font-size: $main-fs;
+
   font-weight: 500;
   line-height: $link-subtitle-lh;
   letter-spacing: 0.02em;

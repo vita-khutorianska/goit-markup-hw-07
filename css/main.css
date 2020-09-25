@@ -14,6 +14,7 @@ body {
   background-color: #ffffff;
   text-decoration: none;
   font-weight: 400;
+  font-size: 14px;
   line-height: 1.71;
   font-style: normal;
   font-family: Roboto, sans-serif;
@@ -60,7 +61,6 @@ img {
 }
 
 .link {
-  font-size: 14px;
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
@@ -275,7 +275,6 @@ img {
 .feature__text {
   margin: 0;
   color: #757575;
-  font-size: 14px;
 }
 
 /*чем занимаються*/
@@ -345,7 +344,7 @@ img {
 .team__item {
   width: calc((100% - 30px * 3) / 4);
   margin-right: 30px;
-  background-color: var(--white);
+  background-color: #ffffff;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
@@ -464,7 +463,6 @@ img {
 }
 
 .adress__name {
-  font-size: 14px;
   color: #ffffff;
   font-style: normal;
 }
@@ -473,7 +471,6 @@ img {
   display: block;
   margin-top: 9px;
   margin-bottom: 0;
-  font-size: 14px;
   font-style: normal;
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
@@ -670,7 +667,8 @@ img {
   outline: none;
 }
 
-.Form__textarea::placeholder {
+.form__textarea::placeholder {
+  font-size: 14px;
   line-height: 1.16;
   letter-spacing: 0.01em;
   color: rgba(117, 117, 117, 0.5);
