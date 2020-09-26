@@ -2,10 +2,12 @@
 
 .client {
   display: flex;
-}
-.client__item:not(:last-child) {
+
+  &__item:not(:last-child) {
   margin-right: 30px;
 }
+}
+
 .client__link {
   display: flex;
   justify-content: center;

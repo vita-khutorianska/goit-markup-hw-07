@@ -7,8 +7,9 @@
   padding: 10px 56px;
 
   transition: background-color $main-transition;
-}
-.submit__btn:hover,
-.submit__btn:focus {
+  
+&:hover,
+&:focus {
   background-color: #188ce8;
+}
 }
