@@ -58,14 +58,16 @@
 
   transition: border-color $main-transition;
   outline: none;
-}
-.form__textarea::placeholder {
+  
+  &::placeholder {
   font-size: $main-fs;
   line-height: 1.16;
   letter-spacing: 0.01em;
 
   color: rgba(117, 117, 117, 0.5);
 }
+}
+
 
 .form__input:focus ~ .form__icon,
 .form__input:focus,
