@@ -219,6 +219,10 @@ img {
   background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../img2/img-hero.jpg);
 }
 
+.hero .btn {
+  padding: 10px 32px;
+}
+
 .hero__title {
   margin-top: 0;
   margin-bottom: 30px;
@@ -229,10 +233,6 @@ img {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: #ffffff;
-}
-
-.hero .btn {
-  padding: 10px 32px;
 }
 
 /*Преимущества*/
@@ -379,8 +379,7 @@ img {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.social__link:hover,
-.social__link:focus {
+.social__link:hover, .social__link:focus {
   background-color: #2196f3;
 }
 
@@ -391,7 +390,7 @@ img {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.social__link:hover .social__icon {
+.social__link:hover .social__icon, .social__link:focus .social__icon {
   fill: #ffffff;
 }
 
@@ -421,6 +420,10 @@ img {
   display: flex;
 }
 
+.client__item:not(:last-child) {
+  margin-right: 30px;
+}
+
 .client__link {
   display: flex;
   justify-content: center;
@@ -432,18 +435,13 @@ img {
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.client__item:not(:last-child) {
-  margin-right: 30px;
+.client__link:hover, .client__link:focus {
+  border-color: #2196f3;
 }
 
 .client__icon {
   fill: #afb1b8;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.client__link:hover,
-.client__link:focus {
-  border-color: #2196f3;
 }
 
 .client__link:hover .client__icon,

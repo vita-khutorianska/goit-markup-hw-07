@@ -17,6 +17,11 @@
       rgba(47, 48, 58, 0.4)
     ),
     url(../img2/img-hero.jpg);
+
+    & .btn {
+  padding: 10px 32px;
+}
+
 }
 .hero__title {
   margin-top: 0;
@@ -30,7 +35,4 @@
 
   text-transform: uppercase;
   color: $white;
-}
-.hero .btn {
-  padding: 10px 32px;
 }

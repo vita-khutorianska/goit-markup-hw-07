@@ -1,11 +1,13 @@
 .filters {
   justify-content: center;
   margin-bottom: 34px;
-}
 
-.filters__item:not(:last-child) {
+  &__item:not(:last-child) {
   margin-right: 8px;
 }
+}
+
+
 /* button*/
 
 .filters__button {
@@ -24,10 +26,9 @@
   text-decoration: none;
 
   transition: all $main-transition;
-}
 
-.filters__button:focus,
-.filters__button:hover {
+  &:focus,
+  &:hover {
   color: $white;
   background-color: $acent;
 
@@ -36,3 +37,6 @@
 
   outline: none;
 }
+}
+
+
