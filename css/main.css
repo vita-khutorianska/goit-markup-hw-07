@@ -320,11 +320,13 @@ img {
 }
 
 .team {
+  background-color: #f5f4fa;
+  padding: 94px 0;
+}
+
+.team__list {
   display: flex;
   flex-wrap: wrap;
-  background-color: #f5f4fa;
-  padding-top: 86px;
-  padding-bottom: 102px;
 }
 
 .team__subtitle {

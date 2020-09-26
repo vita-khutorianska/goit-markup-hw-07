@@ -1,11 +1,10 @@
 .team {
-  display: flex;
-  flex-wrap: wrap;
-
   background-color: $section-team-bg-color;
-  padding-top: 86px;
-  padding-bottom: 102px;
+  padding: 94px 0;
 }
+.team__list {
+  display: flex;
+  flex-wrap: wrap;}
 
 .team__subtitle {
   margin-top: 0;
