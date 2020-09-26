@@ -10,7 +10,6 @@
   display: block;
   padding: 32px 0;
   color: $primery-text-color;
-  text-decoration: none;
   transition: color $main-transition;
 
   &:hover,
@@ -19,27 +18,3 @@
 }
 }
 
-/* position для ссылки */
-.menu__link_current.link {
-  position: relative;
-  display: block;
-  padding: 32px 0;
-  
-
-  color:$acent;
-  
-
-  transition: color $main-transition;}
-
-.menu__link_current::after {
-  position: absolute;
-  content: "";
-  left: 0;
-  bottom: -2%;
-
-  width: 100%;
-  height: 4px;
-  border-radius: 2px;
-  background: $acent;
-
-  transition: color $main-transition;}
