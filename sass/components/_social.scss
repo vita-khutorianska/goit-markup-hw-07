@@ -33,3 +33,28 @@
 
 .social__link:hover .social__icon {
   fill: $white;}
+
+  .social__link_white {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+
+  transition: background-color $main-transition;
+
+  &:hover,
+  &:focus {
+  background-color: $acent;
+}
+}
+.social__icon_white {
+  width: 20px;
+  height: 20px;
+  fill: $white;
+
+  
+}

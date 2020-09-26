@@ -7,8 +7,10 @@
   padding: 0;
   clip: rect(0 0 0 0);
   overflow: hidden;
+  
+}
 
-  &__text::before {
+.checkbox__text::before {
   content: "";
   display: inline-flex;
   text-align: center;
@@ -19,9 +21,15 @@
   border: 2px solid $primery-text-color;
   border-radius: 2px;
   transition: all $main-transition;
-}
-}
 
+  .checkbox:checked ~ & {
+  background-color: $acent;
+  border-color: $acent;
+  background-image: url(../img2/icons/icon-check.svg);
+  background-size: contain;
+  background-origin: border-box;
+}
+}
 .checkbox__label {
   display: flex;
   align-items: center;
@@ -32,10 +40,4 @@
   color: $acent;
   text-decoration-line: underline;
 }
-.checkbox:checked ~ .checkbox__text::before {
-  background-color: $acent;
-  border-color: $acent;
-  background-image: url(../img2/icons/icon-check.svg);
-  background-size: contain;
-  background-origin: border-box;
-}
+
