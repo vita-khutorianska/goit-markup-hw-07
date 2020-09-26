@@ -12,10 +12,12 @@
 .work__item {
   width: calc((100% - 30px * 2) / 3);
   margin-right: 30px;
-}
-.work__item:nth-child(3) {
+
+  &:nth-child(3) {
   margin-right: 0;
 }
+}
+
 /* overlay with subtitle */
 .work__thumb {
   position: relative;
