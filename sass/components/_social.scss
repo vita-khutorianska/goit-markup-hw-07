@@ -2,11 +2,13 @@
 .social {
   display: flex;
   justify-content: center;
-}
-
-.social__item:not(:last-child) {
+  
+  &__item:not(:last-child) {
   margin-right: 10px;
 }
+}
+
+
 
 .social__link {
   display: flex;
