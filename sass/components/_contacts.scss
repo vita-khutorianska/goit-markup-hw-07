@@ -3,18 +3,21 @@
   display: flex;
   align-items: center;
 }
+
 .contacts .link {
 
   display: flex;
   align-items: center;
 
   color: $text-color;
-  text-decoration: none;
-}
-  .link:hover,
- .link:focus {
+
+    &:hover,
+    &:focus {
   color: $acent;
 }
+
+}
+
 .contacts__icon {
   margin-right: 10px;
   fill: currentColor;
