@@ -64,14 +64,6 @@ img {
   overflow: hidden;
 }
 
-.link {
-  font-weight: 500;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-  list-style: none;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
 .btn {
   font-weight: 700;
   font-size: 16px;
@@ -107,6 +99,35 @@ img {
   font-size: 16px;
   line-height: 1.87;
   color: #757575;
+}
+
+.link {
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  list-style: none;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.link--current {
+  position: relative;
+  display: block;
+  padding: 32px 0;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #2196f3;
+}
+
+.link--current::after {
+  position: absolute;
+  content: "";
+  left: 0;
+  bottom: -2%;
+  width: 100%;
+  height: 4px;
+  border-radius: 2px;
+  background: #2196f3;
 }
 
 .header {
@@ -148,33 +169,11 @@ img {
   display: block;
   padding: 32px 0;
   color: #212121;
-  text-decoration: none;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .menu .link:hover, .menu .link:focus {
   color: #2196f3;
-}
-
-/* position для ссылки */
-.menu__link_current.link {
-  position: relative;
-  display: block;
-  padding: 32px 0;
-  color: #2196f3;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.menu__link_current::after {
-  position: absolute;
-  content: "";
-  left: 0;
-  bottom: -2%;
-  width: 100%;
-  height: 4px;
-  border-radius: 2px;
-  background: #2196f3;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* contacts*/
@@ -187,11 +186,9 @@ img {
   display: flex;
   align-items: center;
   color: #757575;
-  text-decoration: none;
 }
 
-.link:hover,
-.link:focus {
+.contacts .link:hover, .contacts .link:focus {
   color: #2196f3;
 }
 
@@ -392,11 +389,12 @@ img {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.social__link:hover .social__icon, .social__link:focus .social__icon {
+.social__link:hover .social__icon,
+.social__link:focus .social__icon {
   fill: #ffffff;
 }
 
-.social__link_white {
+.social__link--white {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -407,14 +405,15 @@ img {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.social__link_white:hover, .social__link_white:focus {
+.social__link--white:hover, .social__link--white:focus {
   background-color: #2196f3;
 }
 
-.social__icon_white {
+.social__icon--white {
   width: 20px;
   height: 20px;
   fill: #ffffff;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* клиенты */
