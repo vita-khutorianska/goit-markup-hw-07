@@ -31,6 +31,10 @@
 
   transition: border-color $main-transition;
   outline: none;
+  
+  &:focus,  &:hover {border-color: $acent;}
+
+  
 }
 
 .form__icon {
@@ -44,6 +48,11 @@
   transition: fill $main-transition;
 
   fill: $primery-text-color;
+
+  .form__input:focus,.form__input:hover ~ & {
+    fill: $acent;
+
+  }
 }
 
 .form__textarea {
@@ -58,7 +67,7 @@
 
   transition: border-color $main-transition;
   outline: none;
-  
+
   &::placeholder {
   font-size: $main-fs;
   line-height: 1.16;
@@ -66,12 +75,9 @@
 
   color: rgba(117, 117, 117, 0.5);
 }
+
+   &:focus,  &:hover {border-color: $acent;}
 }
 
 
-.form__input:focus ~ .form__icon,
-.form__input:focus,
-.form__textarea:focus {
-  border-color: $acent;
-  fill: $acent;
-}
+

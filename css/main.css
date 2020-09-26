@@ -640,6 +640,10 @@ img {
   outline: none;
 }
 
+.form__input:focus, .form__input:hover {
+  border-color: #2196f3;
+}
+
 .form__icon {
   position: absolute;
   width: 18px;
@@ -649,6 +653,10 @@ img {
   transform: translateY(-25%);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   fill: #212121;
+}
+
+.form__icon .form__input:focus, .form__input:hover ~ .form__icon {
+  fill: #2196f3;
 }
 
 .form__textarea {
@@ -670,11 +678,8 @@ img {
   color: rgba(117, 117, 117, 0.5);
 }
 
-.form__input:focus ~ .form__icon,
-.form__input:focus,
-.form__textarea:focus {
+.form__textarea:focus, .form__textarea:hover {
   border-color: #2196f3;
-  fill: #2196f3;
 }
 
 .checkbox {
