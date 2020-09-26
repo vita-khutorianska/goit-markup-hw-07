@@ -30,8 +30,8 @@
   text-align: center;
 
   transition: fill $main-transition;
-}
-.modal__btn-close:focus,
-.modal__btn-close:hover {
+
+&:focus,
+&:hover {
   fill: $acent;
-}
+}}

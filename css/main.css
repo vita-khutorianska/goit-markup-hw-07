@@ -605,8 +605,7 @@ link {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal__btn-close:focus,
-.modal__btn-close:hover {
+.modal__btn-close:focus, .modal__btn-close:hover {
   fill: #2196f3;
 }
 
