@@ -3,11 +3,12 @@
 .feature__item {
   width: calc((100% - 30px * 3) / 4);
   margin-right: 30px;
-}
-.feature__item:nth-child(4) {
+
+    &:nth-child(4) {
   margin-right: 0;
-}
-.feature__item::before {
+ }
+
+  &::before {
   display: block;
   content: "";
   height: 120px;
@@ -17,6 +18,8 @@
   background-position: center;
   background-repeat: no-repeat;
 }
+}
+
 .icon-antenna::before {
   background-image: url(../img2/icons/antenna.svg);
 }
