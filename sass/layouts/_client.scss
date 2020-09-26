@@ -3,6 +3,9 @@
 .client {
   display: flex;
 }
+.client__item:not(:last-child) {
+  margin-right: 30px;
+}
 .client__link {
   display: flex;
   justify-content: center;
@@ -13,21 +16,22 @@
   border-radius: 4px;
 
   transition: border-color $main-transition;
+
+ &:hover,
+ &:focus {
+  border-color: $acent;
+}
 }
 
-.client__item:not(:last-child) {
-  margin-right: 30px;
-}
+
 .client__icon {
   fill: $icon-color;
 
   transition: fill $main-transition;
-}
-.client__link:hover,
-.client__link:focus {
-  border-color: $acent;
-}
-.client__link:hover .client__icon,
-.client__link:focus .client__icon {
+  .client__link:hover &,
+   .client__link:focus & {
   fill: $acent;
 }
+}
+
+
