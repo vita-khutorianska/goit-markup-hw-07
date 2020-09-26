@@ -5,17 +5,20 @@
   margin-right: 50px;
 }
 
-.menu__link.link {
+.menu .link {
   
   display: block;
   padding: 32px 0;
   color: $primery-text-color;
   text-decoration: none;
-}
-.menu .link:hover,
-.link:focus {
+  transition: color $main-transition;
+
+  &:hover,
+  &:focus {
   color:$acent;
 }
+}
+
 /* position для ссылки */
 .menu__link_current.link {
   position: relative;
